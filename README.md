@@ -4,29 +4,29 @@
 ---
 ##MỤC LỤC 
 >[**I. Cú pháp của Hợp ngữ.** ](#I)
-><ul><li>[1. Trường tên.](#I.1)</li>
-><li>[2. Trường toán tử.](#I.2)</li>
-><li>[3. Trường toán hạng.](#I.3)</li>
-><li>[4. Trường lời giải thích.**](#I.4)</li></ul>
+> <ul><li>[1. Trường tên.](#I.1)</li>
+> <li>[2. Trường toán tử.](#I.2)</li>
+> <li>[3. Trường toán hạng.](#I.3)</li>
+> <li>[4. Trường lời giải thích.](#I.4)</li></ul>
 >[**II.Dữ liệu chương trình.**](#II)
 >[**III.Các biến.**](#III)
-><ul><li>[**1 Các biến kiểu byte.**](#III.1)</li>
-><li>[**2 Các biến kiểu word.**](#III.2)</li>
-><li>[**3 Các mảng.**](#III.3)</li></ul>
+> <ul><li>[**1 Các biến kiểu byte.**](#III.1)</li>
+> <li>[**2 Các biến kiểu word.**](#III.2)</li>
+> <li>[**3 Các mảng.**](#III.3)</li></ul>
 >[**IV. Các hằng có tên.**](#IV)
 >[**V. Vài lệnh cơ bản**](#V)
-><ul><li>[**1. MOV và XCBG.**](#V.1)</li> 
-><li>[**2. Các chỉ thị ADD, SUB, INC và DEC.**](#V.2)</li>
-><li>[**3. NEG.**](#V.3)</li></ul>
+> <ul><li>[**1. MOV và XCBG.**](#V.1)</li> 
+> <li>[2. Các chỉ thị ADD, SUB, INC và DEC.](#V.2)</li>
+> <li>[3. NEG.](#V.3)</li></ul>
 >[**VI. Dịch từ ngôn ngữ bậc cao sang Hợp ngữ.**](#VI)
 >[**VII Cấu trúc chương trình.**](#VII)
-><ul><li>[**1.Các chế độ bộ nhớ .**](#VII.1) </li>
-><li>[**2. Đoạn dữ liệu(Data segment).**](#VII.2)</li>
-><li>[**3. Đoạn ngăn sắp xếp(Stack segment)**](#VII.3)</li>
-><li>[**4. Đoạn mã(Code segment).**](#VII.4)</li>
-><li>[**5. Tổng hợp lại.**](#VII.5)</li></ul>
+> <ul><li>[1.Các chế độ bộ nhớ .](#VII.1) </li>
+> <li>[2. Đoạn dữ liệu(Data segment).](#VII.2)</li>
+> <li>[3. Đoạn ngăn sắp xếp(Stack segment)](#VII.3)</li>
+> <li>[4. Đoạn mã(Code segment).](#VII.4)</li>
+> <li>[5. Tổng hợp lại.](#VII.5)</li></ul>
 >[**VIII. Lệnh vào ra.**](#VIII)
-><ul><li>[**1. Ngắt 21h**](#VIII.1)</li></ul>
+> <ul><li>[1. Ngắt 21h.](#VIII.1)</li></ul>
 >[**VIIII.Chương trình đầu tiên.**](#VIIII)
 >[**X. Hiển thị một chuổi.**](#X)
 >[**XI. Tổng kết**](#XI)
