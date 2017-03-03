@@ -4,10 +4,10 @@
 ---
 ##MỤC LỤC 
 >[**I. Cú pháp của Hợp ngữ.** ](#I)
-><ul><li>[**1 Trường tên.**](#I.1)</li>
-><li>[**2 Trường toán tử.**](#I.2)</li>
-><li>[**3 Trường toán hạng.**](#I.3)</li>
-><li>[**4 Trường lời giải thích.**](#I.4)</li></ul>
+><ul><li>[1. Trường tên.](#I.1)</li>
+><li>[2. Trường toán tử.](#I.2)</li>
+><li>[3. Trường toán hạng.](#I.3)</li>
+><li>[4. Trường lời giải thích.**](#I.4)</li></ul>
 >[**II.Dữ liệu chương trình.**](#II)
 >[**III.Các biến.**](#III)
 ><ul><li>[**1 Các biến kiểu byte.**](#III.1)</li>
