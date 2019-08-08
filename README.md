@@ -3,7 +3,7 @@
 >Người thực hiện: **DƯƠNG XUÂN QUIN**
 ---
 ## MỤC LỤC 
->[**I. Cú pháp của Hợp ngữ.** ](# I)<ul>
+>[**I. Cú pháp của Hợp ngữ.** ](#I)<ul>
 > <li>[1. Trường tên.](# I.1)</li>
 > <li>[2. Trường toán tử.](#I.2)</li>
 > <li>[3. Trường toán hạng.](#I.3)</li>
@@ -33,7 +33,7 @@
 ----
 <a name="I"></a>
 ## I. Cú pháp của Hợp ngữ
-###Các dòng lệnh.
+### Các dòng lệnh.
  >+ Các chương trình bao gồm các dòng lệnh, mỗi dòng lệnh trên 1 dòng. 1 dòng lệnh là 1 lệnh mà trình biên dịch sẽ dịch ra mã máy hay là 1 hướng dẫn biên dịch để chỉ dẫn cho trình biên dịch thực hiện 1 vài nhiệm vụ đặc biệt nào đó, chẳng hạn dành chỗ cho 1 biến nhớ hay khai báo 1 chương trình con. 
 
   >+ Mỗi lệnh hay hướng dẫn biên dịch thường có 4 trường:
@@ -58,13 +58,13 @@
 
   ***Ví dụ các tên không hợp lệ:***  TOW      WORD  (chứa 1 khoảng trống),   2abc   (bắt đầu bằng 1 chữ số), A45.28 (dấu chấm không phải là kí tự đầu tiên),  YOU&ME    (chứa 1 kí tự không hợp lệ  ).
 
-###2. TRƯỜNG TOÁN TỬ<a name="I.2"></a>
+### 2. TRƯỜNG TOÁN TỬ<a name="I.2"></a>
 
 + Trong 1 lệnh, trưởng toán tử chứa mã lệnh dạng tượng trưng. Chương trình biên dịch sẽ chuyển mã lệnh dạng tượng trưng sang mã lệnh của ngôn ngữ máy. Tượng trưng của mả lệnh thường biểu thị chức năng của các thao tác. 
 
 + *Ví dụ* như : **MOD**, **ADD**, **SUB** .
 
-###3 Trường toán hạng.<a name="I.3"></a>
+### 3 Trường toán hạng.<a name="I.3"></a>
 
                   NOP                           không toán hạng, không làm gì cả
                   INC      AX                   một toán hạng, cộng 1 vào nội dung AX
@@ -72,14 +72,14 @@
 
   Trong 1 chỉ thị 2 toán hạng, toán hạng đầu tiên gọi là toán hạng đích. Nó có thể là 1 thanh ghi hoặc 1 ô nhớ, là nơi chứa kết quả (lưu ý 1 số chỉ thị không lưu giữ kết quả). Toán hạng thứ 2 là toán hạng nguồn. Các chỉ thị thường không làm thay đổi toán hạng nguồn.
 
-###4 Trường lời giải thích.<a name="I.4"></a>
+### 4 Trường lời giải thích.<a name="I.4"></a>
 
 Người lập trình thường sử dụng trường lời giải thích của 1 dòng lệnh để giải thích dòng lệnh đó làm cái gì. Mở đầu trường này là 1 dấu chấm phẩy (;) và trường biên dịch bỏ qua mọi cái được đánh vào sau dấu chấm phẩy này. Lời giải thích có thể tùy ý (có hoặc không) nhưng vì hợp ngữ là ngôn ngữ bậc thấp cho nên ta hầu như không thể hiểu được 1 chương trình viết bằng Hợp ngữ khi không có lời bình.
 
 
                   MOV           CX,0            ;CX đếm số vòng lặp, khởi tạo 0
                   
-##II. DỮ LIỆU CHƯƠNG TRÌNH<a name="II"></a> 
+## II. DỮ LIỆU CHƯƠNG TRÌNH<a name="II"></a> 
 ** CÁC SỐ**
 
 >- Một số nhị phân được viết như là 1 chuỗi các bit kết thúc bằng chữ cái ‘B’ hay ‘b’.
@@ -110,11 +110,11 @@ Người lập trình thường sử dụng trường lời giải thích của 
                 DQ                    Định nghĩa 4 word (4 từ liên tiếp)
                 DT                    Định nghĩa 10 byte (10 byte liên tiếp)
                 
-##III. Các biến.<a name="III"></a>
+## III. Các biến.<a name="III"></a>
 
 Trong hợp ngữ, các biến có vai trò giống như trong các ngôn ngữ bậc cao. Mỗi biến có 1 kiểu dữ liệu và được chương trình gán cho 1 địa chỉ bộ nhớ. Mỗi toán tử giả có thể được dùng để thiết lập 1 hay nhiều dữ liệu của kiểu đã được đưa ra.
 
-###1. Các biến kiểu byte.<a name="III.1"></a>
+### 1. Các biến kiểu byte.<a name="III.1"></a>
 
 - Dẫn hướng định nghĩa 1 biến kiểu byte của trình biên dịch có dạng như sau:
 
@@ -129,7 +129,7 @@ Trong hợp ngữ, các biến có vai trò giống như trong các ngôn ngữ 
 
             BYTE         DB                   ? 
             
-###2. Các biến kiểu word.<a name="III.2"></a>
+### 2. Các biến kiểu word.<a name="III.2"></a>
 
 - Dẫn hướng định nghĩa 1 biến kiểu word của trình biên dịch có dạng sau đây:
 
@@ -142,7 +142,7 @@ Trong hợp ngữ, các biến có vai trò giống như trong các ngôn ngữ 
             WRD         DW                      -2
             
 - Giống như với biến kiểu byte, 1 dấu chấm hỏi ở vị trí giá trị khởi tạo có nghĩa là word không được khởi tạo giá trị đầu.
-##3. CÁC MẢNG<a name="III.3"></a>
+## 3. CÁC MẢNG<a name="III.3"></a>
 
 + Trong ngôn ngữ hợp ngữ, mảng chỉ là 1 chuỗi các byte nhớ hay từ nhớ. Ví dụ để định nghĩa mảng 3 byte có tên B_ARRAY với các giá trị khởi tạo là 10h, 20h, 30h chúng ta có thể viết:
 
@@ -198,7 +198,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
 
                     MSG               DB                   48h,45h,4Ch,4Ch,4Fh,0Ah,0Dh,24h
 
-##IV.Các hằng có tên.<a name="IV"></a>
+## IV.Các hằng có tên.<a name="IV"></a>
 
 - Để tạo ra các mã lệnh Hợp ngữ dễ hiểu, ngta thường dùng các tên tượng trưng để biểu diễn các hằng số **EQU**
 
@@ -226,9 +226,9 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
     
                       MSG                     DB                        PROMPT
                       
-##V.VÀI LỆNH CƠ BẢN:<a name="V"></a>
+## V.VÀI LỆNH CƠ BẢN:<a name="V"></a>
 
-###1.MOV và XCHG.<a name="V.1"></a>
+### 1.MOV và XCHG.<a name="V.1"></a>
 
 -Lệnh MOV được sử dụng để chuyển dữ liệu giữa các thanh ghi , giữa một thanh ghi và một ô nhớ or chuyển trực tiếp một số vào một thanh ghi hay ô nhớ
 
@@ -260,7 +260,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
 
                         MOV         WORD1,WORD2     ;không hợp lệ
                         
-###2.Các chỉ thị ADD,SUB, INC và DEC.<a name="V.2"></a>
+### 2.Các chỉ thị ADD,SUB, INC và DEC.<a name="V.2"></a>
 
 - Các chỉ thị ADD và SUB được sử dụng để cộng or trừ nội dung của hai thanh ghi , một thanh ghi và một bộ nhớ hoặc cộng (trừ) một số vào một thanh ghi hay một ô nhớ.
 
@@ -298,7 +298,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
                           
                           DEC             BYTE1
                           
-###3. NEG<a name="V.3"></a>
+### 3. NEG<a name="V.3"></a>
 
 - **NEG** dùng để phủ định nội dung của toán hạng đích. DEC sẽ thay thế nội dung bởi phần bù 2 của nó. 
 
@@ -322,7 +322,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
                           
                           MOV                   AX,’A’
                           
-##VI.Dich từ ngôn ngữ bậc cao sang Hợp ngữ.<a name="VI"></a>
+## VI.Dich từ ngôn ngữ bậc cao sang Hợp ngữ.<a name="VI"></a>
 
                 Dòng lệnh               Dịch
                 
@@ -344,9 +344,9 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
                           
                                 MOV     A,AX        ;rồi đứa nó vào A
                           
-##VII.Cấu trúc chương trình<a name="VII"></a>
+## VII.Cấu trúc chương trình<a name="VII"></a>
 
-###1.Các chế độ bộ nhớ<a name="VII.1"></a>
+### 1.Các chế độ bộ nhớ<a name="VII.1"></a>
 
 - Kích thước của đoạn mã và dữ liệu trong một chương trình có thể được xác đinh bằng cách chỉ ra chế độ bộ nhớ nhờ sử dụng dẫn hương biên dịch  **.MODEL**
 
@@ -376,7 +376,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
                                   Dữ liệu chiếm nhiều hơn một đoạn
                                   Các mảng có thể lớn hơn 64 Kbyte
                         
-###2. Đoạn dữ liệu (Data segment)<a name="VII.2"></a>
+### 2. Đoạn dữ liệu (Data segment)<a name="VII.2"></a>
 
 - Đoạn dữ liệu của 1 chương trình chưa tất cả các định nghĩa biến. Để khai báo một đoạn dữ liệu chúng sử dụng dẫn hướng biên dịch .DATA, theo sau là các khai báo biến hay hằng. 
 ***Ví dụ:***
@@ -387,7 +387,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
           MSG           DB      ‘THIS IS A MESSAGE’
           WASK      EQU     10010010B
           
-###3.Đoạn ngăn xếp (Stack seg ment)<a name="VII.3"></a>
+### 3.Đoạn ngăn xếp (Stack seg ment)<a name="VII.3"></a>
 
 - Mục đích của khai báo ngăn xếp là tạo ra một khối bộ nhớ (vùng ngăn xếp ) để chứa ngăn xếp. Vùng có thể đủ lớn để chứa ngăn xếp với kích thước lớn nhất của nó.
 
@@ -397,7 +397,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
 
 - Nếu kích thước bị bỏ qua, 1 Kbyte sẽ được thiết lập cho vùng ngăn xếp.
 
-###4. Đoạn mã (Code segment)<a name="VII.4"></a>
+### 4. Đoạn mã (Code segment)<a name="VII.4"></a>
 
 - Đoạn mã chứa các lệnh của chương trình.
 
@@ -413,7 +413,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
                   MAIN              PROC        ;các lệnh của chương trình chính
                   MAIN              ENDP        ;các thủ tục khác
                   
-###5.Tổng hợp lại.<a name="VII.5"></a>
+### 5.Tổng hợp lại.<a name="VII.5"></a>
 
                   .MODEL    SMALL
                   .STACK    100H
@@ -426,7 +426,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
                   ;Các thủ tục khác ở đây
                   END   MAIN
                   
-##VIII. CÁC LỆNH VÀO RA<a name="VIII"></a>
+## VIII. CÁC LỆNH VÀO RA<a name="VIII"></a>
 
 ** Lệnh INT**
 
@@ -438,7 +438,7 @@ sẽ tạo nên 1 mảng có 4 phần tử với các giá trị khởi tạo l�
 
                 INT         16
                 
-###1.Ngắt 21h<a name="VIII.1"></a>
+### 1.Ngắt 21h<a name="VIII.1"></a>
 
 - Dùng để gọi rất nhiều hàm của DOS. Mỗi hàm được gọi bằng các đặt số hàm vào trong thanh ghi AH và gọi INT 21h
 
@@ -485,7 +485,7 @@ Lệnh sẽ làm xuất hiện dấu chấm hỏi trên màn hình:
                     A                       LF                  xuống dòng
                     D                       CR              xuống dòng và về đầu dòng.
                     
-##VIIII. Chương trình đầu tiên.<a name="VIIII"></a>
+## VIIII. Chương trình đầu tiên.<a name="VIIII"></a>
 
 - Đọc một ký tự từ bàn phím và hiển thị nó ở đầu dòng tiếp theo
 
@@ -516,7 +516,7 @@ Lệnh sẽ làm xuất hiện dấu chấm hỏi trên màn hình:
                     MOV               DL,BL             ;lấy ký tự
                     INT               21h               ;và hiển thị nó
                     
-##X. Hiển thị một chuỗi.<a name="X"></a>
+## X. Hiển thị một chuỗi.<a name="X"></a>
 
 - Ngắt 21h, **Hàm 9: Hiển thị một chuỗi**
 
