@@ -2,9 +2,9 @@
 >Nguồn tham khảo :[Giao trinh Assembly](http://tailieu.vn/doc/chuong-4-gioi-thieu-hop-ngu-cho-ibm-pc-203738.html)
 >Người thực hiện: **DƯƠNG XUÂN QUIN**
 ---
-##MỤC LỤC 
->[**I. Cú pháp của Hợp ngữ.** ](#I)<ul>
-> <li>[1. Trường tên.](#I.1)</li>
+## MỤC LỤC 
+>[**I. Cú pháp của Hợp ngữ.** ](# I)<ul>
+> <li>[1. Trường tên.](# I.1)</li>
 > <li>[2. Trường toán tử.](#I.2)</li>
 > <li>[3. Trường toán hạng.](#I.3)</li>
 > <li>[4. Trường lời giải thích.](#I.4)</li></ul>
